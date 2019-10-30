@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css" />
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <h1 class="title">Login</h1>
+                <form>
+                    <div class="field">
+                        <label class="label">Username</label>
+                        <div class="control">
+                            <input class="input" type="text" placeholder="Username" name="username">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Password</label>
+                        <div class="control">
+                            <input class="input" type="password" placeholder="Password" name="password">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="control">
+                            <label class="checkbox">
+                                <input type="checkbox" name="remember">
+                                Remember login?
+                            </label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="control">
+                            <input class="button is-dark" type="submit"/>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="column">
+                <h1 class="title">Signup</h1>
+                <form>
+                    <div class="field">
+                        <label class="label">Username</label>
+                        <div class="control">
+                            <input class="input" type="text" placeholder="Username" name="username">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Password</label>
+                        <div class="control">
+                            <input class="input" type="password" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Repeat Password</label>
+                        <div class="control">
+                            <input class="input" type="password" placeholder="Password" name="password">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Account type</label>
+                        <div class="control">
+                            <div class="select">
+                                <select name="accountType">
+                                    <option>Choose One</option>
+                                    <option>Organization</option>
+                                    <option>Teacher</option>
+                                    <option>Student</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="control">
+                            <input class="button is-dark" type="submit"/>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
