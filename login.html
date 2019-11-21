@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css" />
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+<h1 class= "title is-size-1, has-text-info">SURVEY-CONNECT</h1>
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <h1 class="title">Login</h1>
+                <form>
+                    <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control">
+                            <input class="input" type="text" placeholder="Username" name="username">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Password</label>
+                        <div class="control">
+                            <input class="input" type="password" placeholder="Password" name="password">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="control">
+                            <input class="button is-dark" type="submit"/>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="column">
+                <h1 class="title">Make a New Account</h1>
+                <div id="#form-root">
+                    <form>
+                        <div class="field">
+                            <label class="label">First Name</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="John" name="first">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Last Name</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="Smith" name="last">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Email</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="Email" name="email">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Password</label>
+                            <div class="control">
+                                <input class="input" type="password" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Repeat Password</label>
+                            <div class="control">
+                                <input class="input" type="password" placeholder="Repeat Password" name="password">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Account type</label>
+                            <div class="control">
+                                <div class="select">
+                                    <select name="accountType">
+                                        <option>Choose One</option>
+                                        <option>Department</option>
+                                        <option>Student</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <div class="control">
+                                <input class="button is-dark submit" type="submit"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="node_modules/axios/dist/axios.js"></script>
+<script src="login.js"></script>
+
+</body>
+</html>
+

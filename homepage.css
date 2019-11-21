@@ -1,0 +1,45 @@
+.profile {
+    float: right;
+    width: 33%;
+    border: black solid thin;
+    border-radius: 25px;
+    padding: 3px;
+}
+.dashboard {
+    float: left;
+    border: black solid thin;
+    border-radius: 25px;
+    width: 66%;
+}
+
+h3.header {
+    text-align: center;
+    float: center;
+}
+
+button.edit {
+    float: right;
+}
+
+.image {
+    float: right;
+    width: 50%;
+    height: 50%;
+}
+div.profileinfo {
+    float: left;
+}
+
+input.searchbar{
+    float: right;
+    width: 78%;
+}
+
+select.dropdown {
+    float: left;
+    width: 20%;
+}
+
+div.search {
+    padding: 10px;
+}
