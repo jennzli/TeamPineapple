@@ -1,0 +1,185 @@
+html {
+    background: #E0C7ED !important;
+}
+
+.profile {
+    float: right;
+    width: 33% !important;
+    box-shadow: -5px -5px 5px rgb(156, 139, 165);
+    padding: 8px !important;
+    margin-right: 20px;
+    background: rgb(247, 240, 252);
+}
+
+.divcenter {
+    text-align: center;
+}
+
+.center {
+    font-weight: bolder;
+    font-size: 25px !important;
+}
+
+.dashboard {
+    float: left;
+    box-shadow: -5px -5px 5px rgb(156, 139, 165);
+    width: 63% !important;
+    padding: 8px;
+    margin-left: 20px;
+    margin-right: 10px;
+    background: rgb(247, 240, 252);
+}
+
+.overalldiv {
+    height: 100%;
+}
+
+.header {
+    text-align: center;
+    float: center;
+    font-size: 1em;
+}
+
+button.edit {
+    float: right;
+}
+
+.image {
+    float: right;
+    width: 50%;
+    height: 50%;
+}
+div.profileinfo {
+    float: left;
+}
+
+select.dropdown {
+    float: left;
+    width: 20%;
+}
+
+
+.myheader {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.profile {
+    float: right;
+    width: 33%;
+    border: black solid thin;
+    border-radius: 25px;
+    padding: 3px;
+}
+.dashboard {
+    float: left;
+    border: black solid thin;
+    border-radius: 25px;
+    width: 66%;
+}
+
+h3.header {
+    text-align: center;
+    float: center;
+}
+
+button.edit {
+    float: right;
+}
+
+.image {
+    float: right;
+    width: 50%;
+    height: 50%;
+}
+div.profileinfo {
+    float: left;
+}
+
+input.searchbar{
+    float: right;
+    width: 78%;
+}
+
+select.dropdown {
+    float: left;
+    width: 20%;
+}
+
+div.search {
+    padding: 10px;
+}
+.autocomplete {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }  
+.myinput {
+    border: 1px solid lightgray;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  input[type=text] {
+    width: 100% !important;
+  }
+  
+  input[type=submit] {
+    cursor: pointer;
+  }
+  
+  .autocomplete-items {
+    position: absolute;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+  
+  .autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff; 
+    border-bottom: 1px solid #d4d4d4; 
+  }
+  
+  /*when hovering an item:*/
+  .autocomplete-items div:hover {
+    background-color: #e9e9e9; 
+  }
+  
+  /*when navigating through the items using the arrow keys:*/
+  .autocomplete-active {
+    background-color: DodgerBlue !important; 
+    color: #ffffff; 
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .align-right {
+      text-align: right;
+  }
+
+  .align-left {
+      text-align: left;
+  }
+
+  .mypadding {
+      padding-left: 3px;
+      padding-right: 3px;
+  }
+
+  body {
+      border-left: 20px;
+      border-right: 20px;
+  }
+
+  .darker {
+      font-weight: bold;
+  }

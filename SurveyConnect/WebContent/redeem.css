@@ -1,0 +1,34 @@
+
+
+#redeem {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#redeem td, #redeem th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 256px;
+}
+
+#redeem tr {
+	background-color: #f2f2f2;
+}
+
+#redeem td:hover {background-color: #ddd;}
+
+#redeem th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #99BADD;
+  color: white;
+}
+
+h1 {
+	font-size: 40px;
+  padding: 10px;
+  font-weight: bolder;
+  text-align: center
+
+}

@@ -1,0 +1,108 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script src ="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"> </script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signup.css">
+
+    <meta name="google-signin-client_id" content="294629464047-pg9efo4mvhh0uo6ouqf18fj633506cab.apps.googleusercontent.com">
+    <!--Google JS API Library-->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <title>Login</title>
+</head>
+<script>
+function validate(){
+	var password = document.forms["signupform"]["passwordlogin"];
+	var repassword = document.forms["signupform"]["repassid"];
+	var email = document.forms["signupform"]["emaillogin"];
+	/* var repPassword = document.getElementById('repassid');//get repassid from new html */
+	if(email.value != null) {
+		validateEmail(email.value);
+	}
+	if(password.value != repassword.value) {
+		alert("Password do not match!")
+		
+		return false;
+	} 
+	return true;
+}
+
+function validateEmail(mail) 
+{
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(signupform.emaillogin.value))
+  {
+    return (true)
+  }
+    alert("You have entered an invalid email address!")
+    return (false)
+}
+
+
+</script>
+<body style = "background: #E0C7ED">
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="node_modules/axios/dist/axios.js"></script>
+<script src="master.js"></script>
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <h1 class="title">Signup</h1>
+               <form id="signupform" method = "POST" action="SignupServlet" onsubmit='return validate()'>
+                    <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control">
+                            <input id = "signupemailid" class="input"  type="text" placeholder="Email" name="emaillogin">
+                        </div>
+                    </div>
+                    
+                    <div id="notAMatch"></div>
+                    
+                    <div class="field">
+                        <label class="label">Password</label>
+                        <div class="control">
+                            <input id = "signuppassid" class="input" type="password" placeholder="Password" name = "passwordlogin">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Repeat Password</label>
+                        <div class="control">
+                            <input id = "repsignupid" class="input" type="password" placeholder="Password" name="repassid">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Account type</label>
+                        <div class="select">
+                                <select id="accountType" onchange="showDiv()" name = "accountType">
+                                    <option value="0">Choose One</option>
+                                    <option value="Organization">Organization</option>
+                                    <option value="Student">Student</option>
+                                </select>
+                        </div>
+                    </div>
+                    
+                    <div id="addFillOut"></div>
+                    
+                    <br>
+
+                    <div class="field">
+                       <div class="control">
+                   
+                            <input class="button is-light" type="submit" value = "Submit"/>
+                        </div>
+
+                        <div class="divider"></div> 
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

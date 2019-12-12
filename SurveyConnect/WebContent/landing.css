@@ -1,0 +1,95 @@
+html{
+    background: #E0C7ED; 
+}
+
+  div {
+      height: 100%;
+  }
+
+  .div {
+      float: center;
+      text-align: center;
+  }
+
+  .box {
+      border: solid black line;
+      text-align: center;
+      height: 650px;
+      margin: 0 auto;
+      background: whitesmoke
+  }
+
+  .mybox {
+      height: 650px;
+      background: #E0C7ED;
+      float: center;
+      width: auto;
+  }
+
+  .h2 {
+    font: sans-serif bold;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .frustration {
+      float: center;
+      height: 50%;
+  }
+
+  .newbox {
+      background: #f5f5dc;
+  }
+
+  .logodiv {
+      height: 100%;
+      background-color:  #E0C7ED;
+      float: center;
+  }
+
+  .img {
+      text-align: center;
+      margin-top: 20%;
+      /* margin-bottom: 30%; */
+      margin-right: 45%;
+      margin-left: 10% !important;
+  }
+
+  .img2 {
+    text-align: center;
+    margin-top: 5%;
+    /* margin-bottom: 30%; */
+    margin-right: 30%;
+    margin-left: 30%;
+    }
+
+  .myp {
+      text-align: center;
+      margin-top: 15%;
+      font-weight: bolder;
+  }
+
+  p {
+      text-align: center;
+      font-weight: bolder;
+  }
+
+  .mybuttons {
+      text-align: center;
+      margin-top: 10%;
+  }
+
+  .center {
+      text-align: center;
+  }
+
+  h1 {
+    font: sans-serif bold;
+    font-size: 1.5em;
+  }
+
+  .mybuttons2 {
+    text-align: center;
+    margin-top: 5%;
+}

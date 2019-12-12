@@ -1,0 +1,26 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+<link rel="stylesheet" href="googleconfirmation.css">
+<script type="text/javascript">
+	        function callGoogleSurveyServletdoGetMethod() {
+	        	
+	            document.forms[0].action = "GoogleSignInServlet?loggedinuser = 'fromgmail'";
+	        
+	            var dept=document.forms[0].select;
+	            document.forms[0].submit();
+	        }
+	        
+</script>
+
+</head>
+<body style = "background-color: #E0C7ED">
+<div class = "container">
+<div>
+<p>You have have successfully logged in using Google! Click this button to access your dash board</p>
+<button class = "button is-white" ><a href="GoogleSignInServlet" onclick= "callGoogleSurveyServletdoGetMethod()">Click here to go to dash board </a></button>
+</div>
+</div>
+</body>

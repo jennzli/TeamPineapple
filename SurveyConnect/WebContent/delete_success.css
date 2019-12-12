@@ -1,0 +1,29 @@
+html {
+    background-color: #E0C7ED !important;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+body {
+	text-align: center;
+}
+
+.inner {
+    display: inline-block;
+    margin-top: 200px;
+    text-align: center;
+    align-items: center;
+}
+
+.centertext {
+	text-align: center;
+}
+
+.container {
+    text-align: center;
+    display: inline-block;
+}
